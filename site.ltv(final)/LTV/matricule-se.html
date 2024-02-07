@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="/LTV/Foto/1-removebg-preview.png">
+  </head>
+  <body>
+      <header>
+          <div class="center">
+              <div class="logo"> <a href="./home.html"><img src="./Foto/2-removebg-preview.png" align="left" width="auto" height="160px"></a></div>
+                  <div class="menu">
+                      <ul>
+                          <a href="curso.html">Cursos</a>
+                          <a href="redes.html">Redes Sociais</a>
+                          <a href="sobre.html">Sobre</a>
+                          <a href="matricule-se.html">Matricule-se</a>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        <div class="wrapper">
+          <div class="form">
+            <form action="">
+                <h2 class="title">Pré-Matricula</h2>
+
+                <h3> Dados do Estudante:</h3>
+                <label for="usarname"><b>Nome do Aluno</b></label>
+
+                <div class="input">
+                    <input id="usarname" placeholder="nome completo" type="text">
+                </div>
+
+                <label for="username"><b>CPF(Aluno)</b></label>
+
+                <div class="input">
+                    
+                    <input id="documento" placeholder="CPF do aluno" type="text">
+                </div>
+
+                <p>Sexo:</p>
+                <input id="feminino" name="genero"  type="radio" value="feminino">
+                <label for="feminino">Feminino</label>
+
+                <input id="masculino" name="genero"  type="radio" value="feminino">
+                <label for="masculino">Masculino</label>
+                
+                <input id="outro" name="genero"  type="radio" value="outro">
+                <label for="outro">Outro</label> <br><br>
+                
+                
+                <label for="data-nascimento"><b>Data de Nascimento</b></label>
+
+                <div class="input">
+                        
+                        <input name="data-nascimento" type="date" id="data-nascimento" class="inputUser">
+                </div>
+
+                <label for="email"><b>Email Aluno</b></label>
+                
+                <div class="input">
+                    <input id="email" placeholder="email@gmail.com" type="text" name="email">
+                    <br>
+                </div>
+
+                <h3 class="title">Dados dos Responsáveis:</h3>
+
+                <label for="usarname"><b>Nome da Mãe</b></label>
+
+                <div class="input">
+                    <input id="username" placeholder="nome completo" type="text">
+                </div>
+
+                <label for="username"><b>Nome do Pai</b></label>
+
+                <div class="input">
+                    <input id="username" placeholder="nome completo" type="text">
+                </div>
+                <label for="username"><b> CPF(De um dos responsáveis)</b></label>
+                            <div class="input">
+                                <input id="username" placeholder="nome completo" type="text">
+                            </div>
+                            
+                            <label for="email"><b>Email:</b></label>
+                                
+                                <div class="input">
+                                    
+                                    <input id="email" placeholder="email@gmail.com" type="text" name="email">
+                                </div> <br> <br>
+
+                                <h3 class="title">Contato</h3>
+
+                                <label for="username"><b> Telefone (Responsável 1):</b></label>
+
+                                <div class="input">
+                                   
+                                    <input id="fone" placeholder="+55(85)..." type="tel">
+                                    <br>
+                                </div>
+
+                                <label for="username"><b> Telefone (Responsável 2)</b></label>
+
+                                    <div class="input">
+                                
+                                        <input id="fone"
+                                        placeholder="+55(85)"...type="tel">
+                                        </div><br>
+
+                                        <h3 class="title">Endereço:</h3>
+                                        <div class="input">
+                                        <div id="escolha">
+
+                                        <label for="username"><b>Selecione seu Bairro</b> </label>
+                                            <select name="Bairro">
+                                                <option value="Jereissati I">Jereissati I </option>
+                                                <option value="Jereissati II" selected>Jereissati II</option>
+                                                <option value="Jereissati III" selected>Jereissati III</option>
+                                                <option value="Horto" selected>Horto Florestal</option>
+                                                <option value="Vila das Flores" selected>Vila das Flores</option>
+                                                <option value="Pavuna" selected>Pavuna</option>
+                                                <option value="Monguba">Monguba</option>
+                                            </select><br><br>
+                                        </div>
+                                        
+
+                                            <label for="endereco"><b>Rua/Casa(Endereço completo)</b></label>
+                                            <input id="endereco" placeholder="Rua. N°..." type="text">
+                                        </div>
+                                        <br>
+                                        
+
+                                        <h3 class="title"><b> Escolha o Curso:</b></h3>
+                                    <div class="input">
+                                        <div id="escolha">
+                                            <select>
+                                                <option value="Informática">Informática</option>
+
+                                                <option value="Logística">Logística</option>
+
+                                                <option value="Enfermagem">Enfermagem</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div id="btn">
+                                        <button type="submit">ENVIAR</button>
+                                    </div>
+            </form>
+          </div>
+        </div>
+      </header>
+  </body>
+  </html>

@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+body{
+    background-image: url(../Foto/background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height: 350px;
+    overflow-y: scroll;
+}
+
+ /* Menu */
+ 
+.center{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1000px;
+    margin: auto;
+    padding: 1px;
+}
+
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+
+header{
+    padding: 0px 0;
+}
+
+.logo{
+    width: auto;
+    padding: 0px;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 95%;
+    padding: 60px;
+    text-align: right;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    position: relative;
+}
+.menu a::after{
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #ffb22a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.menu a:hover::after{
+    width: 100%;
+}
+
+/* HOME*/
+
+.container-ltv{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 320px;
+    left: 350px;
+}
+
+.logo-home{
+    width:300px;
+}
+
+.txt-ltv{
+    display: flex;
+    align-items:center;
+    position:fixed;
+    top: 200px;
+    left: 360px;
+    width: 700px;
+    margin: 289px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Cursos */
+.scroll-curse{
+    height: 816px;
+    overflow-y: scroll;
+}
+.container-infor{
+    width: 100%;
+    height: 100%;
+    margin: 100px;
+    padding: 0px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.text{
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.desc{
+    width: 450px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.container-log{
+    top: 300px;
+    left: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-log{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.text-log{
+    margin: 10px;
+    padding: 0px;
+    font-size: 23px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.desc-log{
+    width: 450px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.container-enf{
+    top: 500px;
+    left: 0px;
+    margin: 10px;
+    padding: 0px;
+    
+}
+
+.img-enf{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.text-enf{
+    margin: 10px;
+    padding: 0px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desc-enf{
+    width: 450px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+/*Sobre*/
+
+.logo-sbr{
+    width:350px;
+    margin: 20px;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.txt-pltv{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items:flex-start;
+    position:absolute;
+    top: 30px;
+    left: 400px;
+    width: 600px;
+    margin: 50px;
+    
+}
+
+.desc-sbr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 700px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top: 120px;
+    left: 400px
+}
+/*Matricule-se*/
+
+
+div.wrapper { 
+    width: 100%; 
+    height: 800px;        /*Scroll*/
+    overflow: auto; 
+}
+
+.form{
+    position: relative;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    border-radius: 10px;
+    padding: 60px;
+    width: 60%;
+    align-items: center;
+    color: #000000;
+}
+
+.title{
+    font-size: 1.8em;
+    margin-bottom: 10%;
+}
+
+.input{
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px #000000 solid;
+    background-color: white;
+    padding: 5px;
+    margin: 0px 0px 12px -10px;
+     
+}
+
+.input i{
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-10%);
+    color: black;
+    font-size: 11px;
+}
+
+#btn{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#btn button{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffe740;
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 1.2em;
+    color: black;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0 5px 0 #ffb22a;
+}
+
+#btn button:hover{
+    background: #ffe740;
+}
+
+#btn button:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+/*Redes Sociais*/
+.container-fb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 300px;
+    left: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fb{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container-ig{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 300px;
+    left: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ig{
+    width: 150px;
+    height: 150px;
+    border-radius: 35%;
+}
+.t-fb{
+    margin: 10px;
+    padding: 0px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t-ig{
+    margin: 10px;
+    padding: 0px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-fb{
+    width: 450px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.texto-ig{
+    width: 450px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
